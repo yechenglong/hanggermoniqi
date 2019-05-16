@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>933</width>
+    <height>176</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>21</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>mac</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>21</y>
+     <width>114</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>F4-8E-38-87-01-C9</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>21</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ip</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>174</x>
+     <y>21</y>
+     <width>114</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>192.168.251.72</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>20</y>
+     <width>591</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_7">
+    <property name="text">
+     <string>port</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="text">
+     <string>9001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_50">
+    <property name="text">
+     <string>产线：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_50">
+    <property name="text">
+     <string>01</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="text">
+     <string>工站</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_49">
+    <property name="text">
+     <string>00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="text">
+     <string>注册结果</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2"/>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="text">
+     <string>注册</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="text">
+     <string>断开连接</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>91</y>
+     <width>80</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送RFID扫码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>91</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>rfid</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>92</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>010203005060708</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>80</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送推杆信号</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>120</y>
+     <width>80</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送气缸压力</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>120</y>
+     <width>78</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pressure Warn</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_9">
+   <property name="geometry">
+    <rect>
+     <x>181</x>
+     <y>121</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>60</y>
+     <width>80</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送心跳检测</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>244</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="text">
+     <string>异常警告</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="text">
+     <string>故障码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3"/>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>label_6</zorder>
+  <zorder>lineEdit_6</zorder>
+  <zorder>splitter</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>label_3</zorder>
+  <zorder>lineEdit_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

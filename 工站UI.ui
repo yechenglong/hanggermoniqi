@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>925</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>80</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生产工序申请</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>320</y>
+     <width>80</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生产订单申请</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>319</y>
+     <width>84</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>orderbatchcode</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_20">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>320</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>20190409002001</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>521</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="text">
+     <string>员工上机</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="text">
+     <string>type</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_10">
+    <property name="text">
+     <string>01</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="text">
+     <string>staffcode</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_11">
+    <property name="text">
+     <string>60000001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="text">
+     <string>上机结果</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_14"/>
+  </widget>
+  <widget class="QSplitter" name="splitter_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>751</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="text">
+     <string>衣架返工申请</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_43">
+    <property name="text">
+     <string>rfid</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_42">
+    <property name="text">
+     <string>A000000000000001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_51">
+    <property name="text">
+     <string>返工工序</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_51">
+    <property name="text">
+     <string>001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="text">
+     <string>返工申请结果</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_15"/>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>21</y>
+     <width>114</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>F4-8E-38-87-01-03</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>21</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>mac</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>174</x>
+     <y>21</y>
+     <width>114</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>192.168.251.72</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>21</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ip</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter_4">
+   <property name="geometry">
+    <rect>
+     <x>294</x>
+     <y>20</y>
+     <width>621</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_7">
+    <property name="text">
+     <string>port</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="text">
+     <string>9001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_50">
+    <property name="text">
+     <string>产线：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_50">
+    <property name="text">
+     <string>01</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="text">
+     <string>工站</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_49">
+    <property name="text">
+     <string>01</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="text">
+     <string>注册</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="text">
+     <string>注册结果</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_19"/>
+   <widget class="QPushButton" name="pushButton">
+    <property name="text">
+     <string>断开连接</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>521</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="text">
+     <string>员工下机</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="text">
+     <string>type</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_13">
+    <property name="text">
+     <string>01</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="text">
+     <string>staffcode</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_12">
+    <property name="text">
+     <string>60000001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="text">
+     <string>上机结果</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_18">
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>791</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="text">
+     <string>RFID衣架绑定</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="text">
+     <string>rfid</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_23">
+    <property name="text">
+     <string>A000000000000001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="text">
+     <string>barcode</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_16">
+    <property name="text">
+     <string>00000000000000000000000000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="text">
+     <string>衣架绑定结果</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9"/>
+  </widget>
+  <widget class="QSplitter" name="splitter_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>297</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="text">
+     <string>生产批次确认</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="text">
+     <string>orderbatchcode</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_17">
+    <property name="text">
+     <string>20190413001001</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>261</y>
+     <width>231</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="text">
+     <string>出站完成</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="text">
+     <string>rfid</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_30">
+    <property name="text">
+     <string>A000000000000001</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_8">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>231</y>
+     <width>232</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="text">
+     <string>出站申请</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_39">
+    <property name="text">
+     <string>rfid</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_38">
+    <property name="text">
+     <string>A000000000000001</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>232</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="text">
+     <string>进站完成</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_36">
+    <property name="text">
+     <string>rfid</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_35">
+    <property name="text">
+     <string>A000000000000001</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>244</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="text">
+     <string>异常警告</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="text">
+     <string>故障码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_21"/>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>390</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>在站数量</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_22">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>390</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>741</x>
+     <y>303</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>员工</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>771</x>
+     <y>303</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>741</x>
+     <y>332</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>工序</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>771</x>
+     <y>332</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>741</x>
+     <y>361</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>产量</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>771</x>
+     <y>361</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>771</x>
+     <y>274</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>741</x>
+     <y>274</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>站号</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter_11">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>172</y>
+     <width>413</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="text">
+     <string>进站申请</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="text">
+     <string>rfid</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_26">
+    <property name="text">
+     <string>A000000000000001</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="text">
+     <string>申请结果</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_8"/>
+  </widget>
+  <zorder>splitter_11</zorder>
+  <zorder>label_3</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>lineEdit_5</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>splitter_10</zorder>
+  <zorder>splitter_8</zorder>
+  <zorder>splitter_9</zorder>
+  <zorder>pushButton_14</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>label_20</zorder>
+  <zorder>lineEdit_20</zorder>
+  <zorder>splitter</zorder>
+  <zorder>splitter_2</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>label</zorder>
+  <zorder>lineEdit_6</zorder>
+  <zorder>label_6</zorder>
+  <zorder>splitter_4</zorder>
+  <zorder>splitter_3</zorder>
+  <zorder>splitter_5</zorder>
+  <zorder>splitter_6</zorder>
+  <zorder>splitter_7</zorder>
+  <zorder>label_22</zorder>
+  <zorder>lineEdit_22</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
